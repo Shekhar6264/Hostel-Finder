@@ -1,0 +1,15 @@
+// var bname="kotesh";
+// var gname="chinnu";
+// var lovescore=Math.random()*100;
+// lovescore=Math.floor(lovescore)+1;
+// console.log("The love score of "+bname+" "+gname+" "+"is:"+lovescore+"%");
+// arr=["audi","bmw","benz","volvo","bugati",0,9.44];
+// console.log(arr);
+// arr.push("lamborghini");
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+names=["Shekhar","Ashok","Kotesh","Hruthik","Sandeep"];
+persons=names.length;
+p_lunch=names[Math.floor(Math.random()*persons)];
+console.log("Tomorrow sponsor for lunch is: "+p_lunch);

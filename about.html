@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Hostel Finder</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+        background: linear-gradient(135deg, #1D2B36, #314A5F);
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .about-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        max-width: 700px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+        color: #D4B886;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .mission {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .highlight {
+        color: #D4B886;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #f1f1f1;
+    }
+
+    .btn-home {
+        background: linear-gradient(135deg, #D4B886, #b89d70);
+        color: #1D2B36;
+        border: none;
+        border-radius: 50px;
+        padding: 12px 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all 0.4s ease;
+        text-decoration: none;
+    }
+
+    .btn-home:hover {
+        background: linear-gradient(135deg, #b89d70, #D4B886);
+        color: #fff;
+        box-shadow: 0 4px 15px rgba(212, 184, 134, 0.6);
+        transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+        .about-card {
+            padding: 25px;
+        }
+    }
+    .navbar {
+          background-color: #233d52;
+          height: 80px;
+      }
+
+      /* Logo Styling */
+      .logo img {
+          height: 80px;
+          width: auto;
+          object-fit: cover;
+          margin-left: 50px;
+      }
+
+      /* Regular Nav Links */
+      .nav-link {
+          color: #D4B886;
+          padding: 10px 15px;
+          font-weight: bold;
+          transition: color 0.3s ease;
+      }
+
+      .nav-link:hover {
+          color: #282155;
+      }
+
+      /* Pill-Shaped Button Styling for Login & Sign Up */
+      .btn-pill {
+          background-color: #aa1025;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 50px;
+          transition: all 0.3s ease;
+          font-weight: bold;
+          margin-left: 10px;
+      }
+
+      .btn-pill:hover {
+          background-color: #388E3C;
+          transform: scale(1.05);
+          color: white;
+      }
+
+      /* Active Link Highlight */
+      .nav-pills .nav-link.active {
+          color: #4CAF50;
+      }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <h1 class="logo mb-0"><img src="logo.png" alt="Hostel Searcher Logo"></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav nav-pills ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search hostels.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn-pill" id="login" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn-pill" id="signup" href="signUp.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="about-card">
+    <h1>About Us</h1>
+    <p>Welcome to <span class="highlight">Hostel Finder</span>—your trusted platform for finding the perfect hostel effortlessly!</p>
+
+    <div class="mission">
+      <p><strong>Hostel Finder</strong> is a hostel searching platform designed specifically for students, with a special focus on helping <span class="highlight">CBIT</span> and <span class="highlight">MGIT</span> students find comfortable and convenient accommodations.</p>
+    </div>
+
+    <p>Our mission is to simplify the process of finding the best hostels near your campus, making it easy, quick, and hassle-free. Whether you're looking for budget-friendly options or premium hostels, we've got you covered.</p>
+
+    <a href="Main.html" class="btn-home">Back to Home</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
